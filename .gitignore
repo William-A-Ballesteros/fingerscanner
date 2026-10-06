@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (datasets and fingerprint data stay out of git)
+data/fingerprints/
+data/not_fingerprints/
+data/enrolled/
+
+# Trained models and checkpoints
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# Experiment logs
+runs/
+lightning_logs/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and local config
+.env
+*.key
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
